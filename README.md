@@ -53,4 +53,4 @@ I have been provided with a pre-trained, sklearn model that has been trained to 
 9. requirements.txt: file containing the required packages & libraries to be installed to be able to run the app
 10. run_docker.sh: file containing commands used to build a docker image of the app
 11. run_kubernetes.sh: files containing commands used to run the app using kubernetes
-12.upload_docker.sh: file containing commands used to upload th app docker image to docker hub.
+12. upload_docker.sh: file containing commands used to upload th app docker image to docker hub.
