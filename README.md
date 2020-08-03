@@ -40,3 +40,17 @@ I have been provided with a pre-trained, sklearn model that has been trained to 
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+
+## Contained Files
+1. .circleci: contains config.yml file which includes the steps to be executed by circleci build
+2. model data: data to be used in prediction
+3. output_text_files: contains logs of running run_docker.sh and run_kubernetes.sh scripts
+4. Dockerfile: docker file used to build docker image of the app
+5. Makefile: contains steps to build and lint the app
+6. README: contains information about the project and how to build it
+7. app.py: web app entry point
+8. make_predictions.sh: script to be run to make predictions of housing prices in Boston
+9. requirements.txt: file containing the required packages & libraries to be installed to be able to run the app
+10. run_docker.sh: file containing commands used to build a docker image of the app
+11. run_kubernetes.sh: files containing commands used to run the app using kubernetes
+12.upload_docker.sh: file containing commands used to upload th app docker image to docker hub.
